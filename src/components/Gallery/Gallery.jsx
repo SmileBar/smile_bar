@@ -13,6 +13,7 @@ export const Gallery = ({ data }) => {
             alt={item.alt}
             width={320}
             height={264}
+            priority
           />
         </div>
       ))}
